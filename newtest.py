@@ -116,7 +116,7 @@ while feedback == 'Yes':
             print('\nSure\nGoodbye!\nLet me know if you need any other operation')
             break
         elif (('your' and 'name') in feedback) or (('Your' and 'Name') in feedback):
-            print("hmmm, my name is Xenox.\nI'm here to help you with your maths problems...")
+            print("hmmm, my name is looni.\nI'm here to help you with your maths problems...")
             feedback = 'Yes'
             break
         else:
