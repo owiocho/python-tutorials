@@ -76,6 +76,7 @@ def mathematics():
             print('Sure. I\'m happy to help you find the factorial of a number\n')
             factorial()
             break
+        #The temperature input has proven that this code is not sufficient and Lol let me just leave here for now
         elif 'Temperature' in recieved or 'temperature' in recieved or 'convert' in recieved or 'Convert' in recieved or 'fahrenheit' in recieved or 'Fahrenheit' in recieved or 'celsius' in recieved or 'Celsius' in recieved:
             print('Okay')
             tempinput = input('What temperature convertion do you want to do\n').lower().split(' ')
